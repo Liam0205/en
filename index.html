@@ -1516,5 +1516,23 @@
 
   
 
+  
+<script type="text/javascript">
+var originalTitle = document.title;
+var titleTime;
+document.addEventListener('visibilitychange', function () {
+    if (document.hidden) {
+        document.title = '╭(°A°`)╮ page crashed~' + originalTitle;
+        clearTimeout(titleTime);
+    } else {
+        document.title = '(ฅ>ω<*ฅ) well, it works now~' + originalTitle;
+        titleTime = setTimeout(function () {
+            document.title = originalTitle;
+        }, 2000);
+    }
+});
+</script>
+
+
 </body>
 </html>
