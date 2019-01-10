@@ -469,6 +469,16 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/en/2019/01/08/the-Pirate-Dividend-issue-and-Trump-Campaign/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">Comments: </span> <span class="post-comments-count gitment-comments-count" data-xid="/en/2019/01/08/the-Pirate-Dividend-issue-and-Trump-Campaign/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -701,9 +711,13 @@
           
 
   
-    <div id="gitalk-container">
+    <div class="comments" id="comments">
+      
+        <div onclick="showGitment()" id="gitment-display-button">Show comments from Gitment</div>
+        <div id="gitment-container" style="display:none"></div>
+      
     </div>
-    
+
   
 
 
@@ -1023,35 +1037,55 @@
 
 
 
-
-
-
-
+<!-- LOCAL: You can save these files to your site and update links -->
+  
+    
+    <link rel="stylesheet" href="https://aimingoo.github.io/gitmint/style/default.css">
+    <script src="https://aimingoo.github.io/gitmint/dist/gitmint.browser.js"></script>
+  
+<!-- END LOCAL -->
 
   
+    <style>
+      a.gitment-editor-footer-tip { display: none; }
+      .gitment-container.gitment-footer-container { display: none; }
+    </style>
   
-  <script src="//cdn.jsdelivr.net/npm/gitalk@1.4.0/dist/gitalk.min.js"></script>
 
   
-  
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1.4.0/dist/gitalk.css">
+    <script>
+    function renderGitment(){
+      var gitment = new Gitmint({
+        id: window.location.pathname,
+        owner: 'Liam0205',
+        repo: 'comments',
+        
+        lang: "" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
+        
+        oauth: {
+        
+        
+          client_secret: '61bc947cad0ec7078e800e05b1e3c78b763b2c55',
+        
+          client_id: 'a3d846b3392f468b5746'
+        }});
+      gitment.render('gitment-container');
+    }
 
+    
+      function showGitment(){
+        document.getElementById("gitment-display-button").style.display = "none";
+        document.getElementById("gitment-container").style.display = "block";
+        renderGitment();
+      }
+    
+    </script>
   
-  
-  <script src="//cdn.jsdelivr.net/npm/js-md5@0.7.3/src/md5.min.js"></script>
 
-   <script>
-        var gitalk = new Gitalk({
-          clientID: 'a3d846b3392f468b5746',
-          clientSecret: '61bc947cad0ec7078e800e05b1e3c78b763b2c55',
-          repo: 'en',
-          owner: 'Liam0205',
-          admin: ['Liam0205'],
-          id: md5(location.pathname),
-          distractionFreeMode: 'true'
-        })
-        gitalk.render('gitalk-container')
-       </script>
+
+
+
+
 
 
   
