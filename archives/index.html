@@ -278,7 +278,7 @@
       
     
 
-    <a href="/en/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>Categories<span class="badge">1</span></a>
+    <a href="/en/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>Categories<span class="badge">2</span></a>
 
   </li>
         
@@ -297,7 +297,7 @@
       
     
 
-    <a href="/en/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>Tags<span class="badge">1</span></a>
+    <a href="/en/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>Tags<span class="badge">2</span></a>
 
   </li>
 
@@ -506,6 +506,8 @@
                     
                       
                     
+                      
+                    
                     <span class="site-state-item-count">1</span>
                     <span class="site-state-item-name">categories</span>
                   </a>
@@ -518,6 +520,8 @@
                 <div class="site-state-item site-state-tags">
                   <a href="/en/tags/index.html">
                     
+                    
+                      
                     
                       
                     
@@ -629,12 +633,29 @@
   
 
   
-    <span class="site-pv" title="Total Views">
+    <span class="site-pv" id="busuanzi_container_site_pv" title="Total Views" style="display:none">
       <i class="fa fa-eye"></i>
       <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
     </span>
   
 </div>
+
+
+<script src="//cdn.jsdelivr.net/npm/jquery@2/dist/jquery.min.js"></script>
+<script>
+  $(document).ready(function() {
+    var interval = setInterval(fixCount, 100);
+    var offset_total_views    = parseInt(100000);
+    var offset_total_visitors = parseInt(50000);
+    function fixCount() {
+      if ($("#busuanzi_container_site_pv").css("display") != "none" && $("#busuanzi_container_site_uv").css("display") != "none") {
+        clearInterval(interval);
+        $("#busuanzi_value_site_pv").html(parseInt($("#busuanzi_value_site_pv").html()) + offset_total_views);
+        $("#busuanzi_value_site_uv").html(parseInt($("#busuanzi_value_site_uv").html()) + offset_total_visitors);
+      }
+    }
+  });
+</script>
 
 
 
