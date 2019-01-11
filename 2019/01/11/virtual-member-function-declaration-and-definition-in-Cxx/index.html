@@ -112,7 +112,7 @@
 <meta property="og:site_name" content="Begin-End">
 <meta property="og:description" content="Polymorphism is one of the most important feature of OOP. C++ implements polymorphism by the combination of virtual member functions and pointers (references). As a C++ user, of course you know how to">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-01-11T08:42:44.091Z">
+<meta property="og:updated_time" content="2019-01-11T11:10:14.305Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Declaration and Definition of Virtual Member Functions in C++">
 <meta name="twitter:description" content="Polymorphism is one of the most important feature of OOP. C++ implements polymorphism by the combination of virtual member functions and pointers (references). As a C++ user, of course you know how to">
@@ -349,6 +349,42 @@
   
 
 
+<script>
+if (!yuukiReaddata(window.location.href + "fool")) {
+    document.body.classList.add('yuuki-fool-egg');
+    window.setTimeout(function() {
+        yuukiSavedata(window.location.href + "fool", window.location.href + "fool");
+        alert("Congratulations! You find an easter egg! (click \"OK\" to recover) -- Liam Huang (Yuuki)");
+        document.body.classList.remove('yuuki-fool-egg');
+    }, 3000);
+}
+
+function yuukiSavedata(key, data) {
+    key = 'yuuki_' + key;
+    data = JSON.stringify(data);
+    if (window.localStorage) {
+        localStorage.setItem(key, data);
+    }
+}
+
+function yuukiReaddata(key) {
+    if (!window.localStorage) return '';
+    key = 'yuuki_' + key;
+    return JSON.parse(localStorage.getItem(key));
+}
+</script>
+
+<style>
+.yuuki-fool-egg {
+    -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    -o-transform: skew(0deg, 180deg) scale(-1, 1);
+    filter:progid: DXImageTransform.Microsoft.BasicImage(mirror=1);
+}
+</style>
+
+
 
 </div>
     </header>
@@ -425,7 +461,7 @@
                 
               
 
-              <time title="Created: 2019-01-11 15:51:38 / Modified: 16:42:44" itemprop="dateCreated datePublished" datetime="2019-01-11T15:51:38+08:00">2019-01-11</time>
+              <time title="Created: 2019-01-11 15:51:38 / Modified: 19:10:14" itemprop="dateCreated datePublished" datetime="2019-01-11T15:51:38+08:00">2019-01-11</time>
             
 
             
