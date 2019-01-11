@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://liam.page/en/notes/index.html</loc>
+    
+    <lastmod>2019-01-11T12:05:28.234Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://liam.page/en/2019/01/11/virtual-member-function-declaration-and-definition-in-Cxx/</loc>
     
     <lastmod>2019-01-11T11:10:14.305Z</lastmod>
