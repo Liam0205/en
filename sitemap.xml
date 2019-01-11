@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://liam.page/en/tags/index.html</loc>
+    
+    <lastmod>2019-01-11T12:29:11.374Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://liam.page/en/categories/index.html</loc>
+    
+    <lastmod>2019-01-11T12:29:06.124Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://liam.page/en/about/index.html</loc>
     
-    <lastmod>2019-01-11T12:24:00.623Z</lastmod>
+    <lastmod>2019-01-11T12:27:02.189Z</lastmod>
     
   </url>
   
@@ -33,20 +47,6 @@
     <loc>https://liam.page/en/lib/needsharebutton/README.html</loc>
     
     <lastmod>2019-01-10T06:16:25.409Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://liam.page/en/tags/index.html</loc>
-    
-    <lastmod>2019-01-10T03:26:40.167Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://liam.page/en/categories/index.html</loc>
-    
-    <lastmod>2019-01-10T03:26:31.312Z</lastmod>
     
   </url>
   
