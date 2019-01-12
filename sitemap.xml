@@ -9,20 +9,6 @@
   </url>
   
   <url>
-    <loc>https://liam.page/en/categories/index.html</loc>
-    
-    <lastmod>2019-01-12T02:50:51.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://liam.page/en/tags/index.html</loc>
-    
-    <lastmod>2019-01-12T02:50:51.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://liam.page/en/about/index.html</loc>
     
     <lastmod>2019-01-12T02:50:51.000Z</lastmod>
@@ -30,7 +16,21 @@
   </url>
   
   <url>
+    <loc>https://liam.page/en/categories/index.html</loc>
+    
+    <lastmod>2019-01-12T02:50:51.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://liam.page/en/notes/index.html</loc>
+    
+    <lastmod>2019-01-12T02:50:51.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://liam.page/en/tags/index.html</loc>
     
     <lastmod>2019-01-12T02:50:51.000Z</lastmod>
     
