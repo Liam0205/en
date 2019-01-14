@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://liam.page/en/notes/index.html</loc>
+    
+    <lastmod>2019-01-14T02:35:20.526Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://liam.page/en/lib/needsharebutton/README.html</loc>
     
     <lastmod>2019-01-13T10:58:04.707Z</lastmod>
@@ -10,13 +17,6 @@
   
   <url>
     <loc>https://liam.page/en/tags/index.html</loc>
-    
-    <lastmod>2019-01-13T10:52:45.280Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://liam.page/en/notes/index.html</loc>
     
     <lastmod>2019-01-13T10:52:45.280Z</lastmod>
     
