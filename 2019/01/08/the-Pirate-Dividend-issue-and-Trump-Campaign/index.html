@@ -50,8 +50,6 @@
 
 
 
-
-
 <link rel="stylesheet" href="/en/lib/font-awesome/css/font-awesome.min.css?v=4.6.2">
 
 <link rel="stylesheet" href="/en/css/main.css?v=7.0.1">
@@ -683,25 +681,43 @@
     
     
       <div>
-        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
-  <div>If this post helps you, please consider to donate.</div>
-  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById(&quot;QR&quot;); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
-    <span>Donate</span>
+        <div id="reward-container">
+  <div>If this post helps you, please consider to buy a cup of coffee for me.</div>
+  <button id="reward-button" disable="enable" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    Donate
   </button>
-  <div id="QR" style="display: none;">
+  <div id="qr" style="display: none;">
 
     
-      <div id="wechat" style="display: inline-block">
-        <img id="wechat_qr" src="/en/images/reward/wechatpay-cropped.png" alt="Liam Huang WeChat Pay">
-        <p>WeChat Pay</p>
-      </div>
+      
+      
+        
+        
+          
+        
+        <div style="display: inline-block">
+          <img src="/en/images/reward/wechatpay-cropped.png" alt="Liam Huang WeChat Pay">
+          <p>WeChat Pay</p>
+        </div>
+      
     
-
+      
+      
+        
+        
+          
+        
+        <div style="display: inline-block">
+          <img src="/en/images/reward/alipay-cropped.png" alt="Liam Huang Alipay">
+          <p>Alipay</p>
+        </div>
+      
     
-      <div id="alipay" style="display: inline-block">
-        <img id="alipay_qr" src="/en/images/reward/alipay-cropped.png" alt="Liam Huang Alipay">
-        <p>Alipay</p>
-      </div>
+      
+      
+    
+      
+      
     
 
     
@@ -718,8 +734,6 @@
         
         <p>PayPal</p>
       </div>
-    
-
     
 
   </div>
