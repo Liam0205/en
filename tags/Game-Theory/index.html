@@ -55,7 +55,8 @@
       copy_button: 'Copy',
       copy_success: 'Copied',
       copy_failure: 'Copy failed'
-    }
+    },
+    sidebarPadding: 40
   };
 </script>
 
@@ -81,7 +82,7 @@
     isArchive: false
   };
 </script>
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/ilyabirman-likely@2/release/likely.min.css">
+
   <title>Tag: Game Theory | Begin-End</title>
   <meta name="generator" content="Hexo 3.9.0">
   
@@ -401,10 +402,10 @@
     <div class="sidebar-inner">
 
       <ul class="sidebar-nav motion-element">
-        <li class="sidebar-nav-toc" data-target="post-toc-wrap">
+        <li class="sidebar-nav-toc">
           Table of Contents
         </li>
-        <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+        <li class="sidebar-nav-overview">
           Overview
         </li>
       </ul>
@@ -528,7 +529,7 @@
 
 <script src="/en/js/liam/tools.js"></script>
 <script>
-  ready(function() {
+  document.addEventListener('DOMContentLoaded', function() {
     
     
     var intervalTotalViews = setInterval(fixTotalViews, 100);
@@ -564,7 +565,9 @@
   </div>
 
   
-  <script src="/en/lib/jquery/index.js?v=3.4.1"></script>
+
+
+  <script src="/en/lib/anime.min.js?v=3.1.0"></script>
   <script src="/en/lib/velocity/velocity.min.js?v=1.2.1"></script>
   <script src="/en/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
 <script src="/en/js/utils.js?v=7.3.0"></script><script src="/en/js/motion.js?v=7.3.0"></script>
