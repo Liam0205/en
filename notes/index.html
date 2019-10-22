@@ -10,10 +10,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
 <meta name="generator" content="Hexo 3.9.0">
-  <link rel="apple-touch-icon" sizes="180x180" href="/en/images/favicon/apple-touch-icon.png?v=7.4.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="/en/images/favicon/favicon-32x32.png?v=7.4.0">
-  <link rel="icon" type="image/png" sizes="16x16" href="/en/images/favicon/favicon-16x16.png?v=7.4.0">
-  <link rel="mask-icon" href="/en/images/favicon/safari-pinned-tab.svg?v=7.4.0" color="#222">
+  <link rel="apple-touch-icon" sizes="180x180" href="/en/images/favicon/apple-touch-icon.png?v=7.4.2">
+  <link rel="icon" type="image/png" sizes="32x32" href="/en/images/favicon/favicon-32x32.png?v=7.4.2">
+  <link rel="icon" type="image/png" sizes="16x16" href="/en/images/favicon/favicon-16x16.png?v=7.4.2">
+  <link rel="mask-icon" href="/en/images/favicon/safari-pinned-tab.svg?v=7.4.2" color="#222">
   <link rel="manifest" href="/en/images/favicon/site.webmanifest">
   <meta name="msapplication-config" content="/en/images/favicon/browserconfig.xml">
   <link rel="alternate" href="/en/atom.xml" title="Begin-End" type="application/atom+xml">
@@ -21,7 +21,7 @@
   <meta http-equiv="Cache-Control" content="no-siteapp">
   <meta name="google-site-verification" content="TYuJQFuiVqfbFfJAkHfXigSDRIMibztxXxgl_iAaQhA">
 
-<link rel="stylesheet" href="/en/css/main.css?v=7.4.0">
+<link rel="stylesheet" href="/en/css/main.css?v=7.4.2">
 
 
 <link rel="stylesheet" href="/en/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">
@@ -32,7 +32,7 @@
   var CONFIG = {
     root: '/en/',
     scheme: 'Gemini',
-    version: '7.4.0',
+    version: '7.4.2',
     exturl: false,
     sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
     copycode: {"enable":true,"show_result":false,"style":null},
@@ -87,18 +87,22 @@
   };
 </script>
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/ilyabirman-likely@2/release/likely.min.css">
-  <title>Notes | Begin-End</title>
+  <title>
+      Notes | Begin-End
+    
+  </title>
   
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-44836433-1"></script>
-  <script pjax>
-    var host = window.location.hostname;
-    if (host !== "localhost" || !true) {
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-44836433-1');
-    }
-  </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-44836433-1"></script>
+    <script pjax>
+      var host = window.location.hostname;
+      if (host !== "localhost" || !true) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-44836433-1');
+      }
+    </script>
+  
 
 
 
@@ -119,7 +123,6 @@
   .use-motion .post-body,
   .use-motion .collection-header { opacity: initial; }
 
-  .use-motion .logo,
   .use-motion .site-title,
   .use-motion .site-subtitle {
     opacity: initial;
@@ -133,11 +136,11 @@
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+<body itemscope itemtype="http://schema.org/WebPage">
   <div class="container use-motion">
     <div class="headband"></div>
 
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-container">
   <div class="site-meta">
 
@@ -153,11 +156,11 @@
   </div>
 
   <div class="site-nav-toggle">
-    <button aria-label="Toggle navigation bar">
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-    </button>
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
   </div>
 </div>
 
@@ -167,7 +170,7 @@
   <ul id="menu" class="menu">
       
       
-      
+        
         
         <li class="menu-item menu-item-home">
       
@@ -186,8 +189,10 @@
 
   </li>
       
+    
       
       
+        
         
         <li class="menu-item menu-item-archives">
       
@@ -208,8 +213,10 @@
 
   </li>
       
+    
       
       
+        
         
         <li class="menu-item menu-item-categories">
       
@@ -230,8 +237,10 @@
 
   </li>
       
+    
       
       
+        
         
         <li class="menu-item menu-item-tags">
       
@@ -252,8 +261,10 @@
 
   </li>
       
+    
       
       
+        
         
         <li class="menu-item menu-item-notes-&-message-board">
       
@@ -272,8 +283,10 @@
 
   </li>
       
+    
       
       
+        
         
         <li class="menu-item menu-item-blog-in-chinese">
       
@@ -292,8 +305,10 @@
 
   </li>
       
+    
       
       
+        
         
         <li class="menu-item menu-item-about">
       
@@ -311,10 +326,12 @@
     <a href="/en/about/" rel="section"><i class="fa fa-fw fa-user"></i>About</a>
 
   </li>
+      
+    
       <li class="menu-item menu-item-search">
-        <a href="javascript:;" class="popup-trigger">
-        
-          <i class="fa fa-search fa-fw"></i>Search</a>
+        <a role="button" class="popup-trigger">
+          <i class="fa fa-search fa-fw"></i>Search
+        </a>
       </li>
     
   </ul>
@@ -351,7 +368,7 @@
   </div>
 
 
-    <main id="main" class="main">
+    <main class="main">
       <div class="main-inner">
         <div class="content-wrap">
             
@@ -380,17 +397,18 @@
   
   
 
-          <div id="content" class="content">
+          <div class="content">
             
 
-  <div id="posts" class="posts-expand">
+  <div class="posts-expand">
     
     
     
-    <div class="post-block page">
+    <div class="post-block" lang="en">
       <header class="post-header">
 
 <h2 class="post-title" itemprop="name headline">Notes
+  
 
 </h2>
 
@@ -405,7 +423,6 @@
       
       
       <div class="post-body">
-        
           <h2 id="2019-01"><a href="#2019-01" class="headerlink" title="2019-01"></a>2019-01</h2><p>A cheat sheet for SQL Joins.</p>
 <blockquote>
 <p><img alt data-src="/uploads/images/SQL/SQL_joins.png"></p>
@@ -440,12 +457,10 @@
         </div>
           
   
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
-    </div>
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
   </div>
 
   <aside class="sidebar">
@@ -537,10 +552,14 @@
       </div>
     </main>
 
-    <footer id="footer" class="footer">
+    <footer class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; 2018 – <span itemprop="copyrightYear">2019</span>
-  <span class="with-love" id="animate">
+        
+
+<div class="copyright">
+  &copy; 2018 – 
+  <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">Liam Huang</span>
@@ -555,9 +574,11 @@
     </span>
     <span title="Reading time total">7 mins.</span>
 </div>
-  <div class="powered-by">Powered by <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.9.0</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.9.0
+  </div>
   <span class="post-meta-divider">|</span>
-  <div class="theme-info">Theme – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.4.0</div>
+  <div class="theme-info">Theme – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.4.2
+  </div>
 
         
 <div class="busuanzi-count">
@@ -617,10 +638,10 @@
   <script src="//cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js"></script>
   <script src="/en/lib/velocity/velocity.min.js?v=1.2.1"></script>
   <script src="/en/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-<script src="/en/js/utils.js?v=7.4.0"></script><script src="/en/js/motion.js?v=7.4.0"></script>
-<script src="/en/js/schemes/pisces.js?v=7.4.0"></script>
+<script src="/en/js/utils.js?v=7.4.2"></script><script src="/en/js/motion.js?v=7.4.2"></script>
+<script src="/en/js/schemes/pisces.js?v=7.4.2"></script>
 
-<script src="/en/js/next-boot.js?v=7.4.0"></script>
+<script src="/en/js/next-boot.js?v=7.4.2"></script>
   <script>
 var pjax = new Pjax({
   selectors: [
@@ -640,19 +661,26 @@ var pjax = new Pjax({
 
 window.addEventListener('pjax:success', () => {
   document.querySelectorAll('script[pjax], script#page-configurations, #pjax script').forEach(element => {
-    var id = element.id || '';
-    var src = element.src || '';
     var code = element.text || element.textContent || element.innerHTML || '';
     var parent = element.parentNode;
     parent.removeChild(element);
     var script = document.createElement('script');
-    if (id !=='') {
+    if (element.id) {
       script.id = element.id;
     }
-    if (src !== '') {
-      script.src = src;
+    if (element.className) {
+      script.className = element.className;
+    }
+    if (element.type) {
+      script.type = element.type;
+    }
+    if (element.src) {
+      script.src = element.src;
       // Force synchronous loading of peripheral JS.
       script.async = false;
+    }
+    if (element.getAttribute('pjax') !== null) {
+      element.setAttribute('pjax', '');
     }
     if (code !== '') {
       script.appendChild(document.createTextNode(code));
@@ -683,7 +711,7 @@ window.addEventListener('pjax:success', () => {
 
 
 
-  <script src="/en/js/local-search.js?v=7.4.0"></script>
+  <script src="/en/js/local-search.js?v=7.4.2"></script>
 
 
 
