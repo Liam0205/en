@@ -1,40 +1,35 @@
 <!DOCTYPE html>
-
-
-
-
-
 <html lang="en">
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
 <meta name="generator" content="Hexo 3.9.0">
-  <link rel="apple-touch-icon" sizes="180x180" href="/en/images/favicon/apple-touch-icon.png?v=7.4.2">
-  <link rel="icon" type="image/png" sizes="32x32" href="/en/images/favicon/favicon-32x32.png?v=7.4.2">
-  <link rel="icon" type="image/png" sizes="16x16" href="/en/images/favicon/favicon-16x16.png?v=7.4.2">
-  <link rel="mask-icon" href="/en/images/favicon/safari-pinned-tab.svg?v=7.4.2" color="#222">
+  <link rel="apple-touch-icon" sizes="180x180" href="/en/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/en/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/en/images/favicon/favicon-16x16.png">
+  <link rel="mask-icon" href="/en/images/favicon/safari-pinned-tab.svg" color="#222">
   <link rel="manifest" href="/en/images/favicon/site.webmanifest">
   <meta name="msapplication-config" content="/en/images/favicon/browserconfig.xml">
-  <link rel="alternate" href="/en/atom.xml" title="Begin-End" type="application/atom+xml">
   <meta http-equiv="Cache-Control" content="no-transform">
   <meta http-equiv="Cache-Control" content="no-siteapp">
   <meta name="google-site-verification" content="TYuJQFuiVqfbFfJAkHfXigSDRIMibztxXxgl_iAaQhA">
 
-<link rel="stylesheet" href="/en/css/main.css?v=7.4.2">
+<link rel="stylesheet" href="/en/css/main.css">
 
 
-<link rel="stylesheet" href="/en/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">
+<link rel="stylesheet" href="/en/lib/font-awesome/css/font-awesome.min.css">
 
 
 <script id="hexo-configurations">
   var NexT = window.NexT || {};
   var CONFIG = {
+    hostname: new URL('https://liam.page/en').hostname,
     root: '/en/',
     scheme: 'Gemini',
-    version: '7.4.2',
+    version: '7.7.1',
     exturl: false,
-    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
+    sidebar: {"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},
     copycode: {"enable":true,"show_result":false,"style":null},
     back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
     bookmark: {"enable":false,"color":"#222","save":"auto"},
@@ -42,6 +37,7 @@
     mediumzoom: true,
     lazyload: true,
     pangu: false,
+    comments: {"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},
     algolia: {
       appID: '',
       apiKey: '',
@@ -51,13 +47,7 @@
     },
     localsearch: {"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
     path: 'search.xml',
-    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
-    translation: {
-      copy_button: 'Copy',
-      copy_success: 'Copied',
-      copy_failure: 'Copy failed'
-    },
-    sidebarPadding: 40
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}
   };
 </script>
 
@@ -69,7 +59,8 @@
 <meta property="og:locale" content="en">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Begin-End">
-  <link rel="canonical" href="https://liam.page/en/categories/Algorithm-and-Computer-Science/">
+
+<link rel="canonical" href="https://liam.page/en/categories/Algorithm-and-Computer-Science/">
 
 
 <script id="page-configurations">
@@ -77,9 +68,7 @@
   CONFIG.page = {
     sidebar: "",
     isHome: false,
-    isPost: false,
-    isPage: false,
-    isArchive: false
+    isPost: false
   };
 </script>
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/ilyabirman-likely@2/release/likely.min.css">
@@ -87,17 +76,13 @@
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-44836433-1"></script>
     <script pjax>
-      var host = window.location.hostname;
-      if (host !== "localhost" || !true) {
+      if (CONFIG.hostname === location.hostname) {
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'UA-44836433-1');
       }
     </script>
-  
-
-
 
 
 
@@ -161,172 +146,45 @@
 <nav class="site-nav">
   
   <ul id="menu" class="menu">
-      
-      
-        
-        
         <li class="menu-item menu-item-home">
-      
-    
-      
-      
-        
-      
-        
-      
-        
-      
-    
 
     <a href="/en/" rel="section"><i class="fa fa-fw fa-home"></i>Home</a>
 
   </li>
-      
-    
-      
-      
-        
-        
         <li class="menu-item menu-item-archives">
-      
-    
-      
-      
-        
-          
-        
-      
-        
-      
-        
-      
-    
 
     <a href="/en/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>Archives<span class="badge">3</span></a>
 
   </li>
-      
-    
-      
-      
-        
-        
         <li class="menu-item menu-item-categories">
-      
-    
-      
-      
-        
-      
-        
-          
-        
-      
-        
-      
-    
 
     <a href="/en/categories/" rel="section"><i class="fa fa-fw fa-th"></i>Categories<span class="badge">3</span></a>
 
   </li>
-      
-    
-      
-      
-        
-        
         <li class="menu-item menu-item-tags">
-      
-    
-      
-      
-        
-      
-        
-      
-        
-          
-        
-      
-    
 
     <a href="/en/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>Tags<span class="badge">5</span></a>
 
   </li>
-      
-    
-      
-      
-        
-        
         <li class="menu-item menu-item-notes-&-message-board">
-      
-    
-      
-      
-        
-      
-        
-      
-        
-      
-    
 
     <a href="/en/notes/" rel="section"><i class="fa fa-fw fa-sticky-note"></i>Notes & Message board</a>
 
   </li>
-      
-    
-      
-      
-        
-        
         <li class="menu-item menu-item-blog-in-chinese">
-      
-    
-      
-      
-        
-      
-        
-      
-        
-      
-    
 
     <a href="https://liam.page/" rel="section"><i class="fa fa-fw fa-link"></i>Blog in Chinese</a>
 
   </li>
-      
-    
-      
-      
-        
-        
         <li class="menu-item menu-item-about">
-      
-    
-      
-      
-        
-      
-        
-      
-        
-      
-    
 
     <a href="/en/about/" rel="section"><i class="fa fa-fw fa-user"></i>About</a>
 
   </li>
-      
-    
       <li class="menu-item menu-item-search">
-        <a role="button" class="popup-trigger">
-          <i class="fa fa-search fa-fw"></i>Search
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
         </a>
       </li>
-    
   </ul>
 
 </nav>
@@ -364,31 +222,7 @@
     <main class="main">
       <div class="main-inner">
         <div class="content-wrap">
-            
-
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-  
+          
 
           <div class="content">
             
@@ -405,16 +239,9 @@
       </div>
 
       
-
-  
-  
-
-  
-    
     <div class="collection-year">
       <h2 class="collection-header">2019</h2>
     </div>
-  
 
   <article itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
@@ -428,17 +255,13 @@
       </div>
 
       <h3 class="post-title">
-        
           <a class="post-title-link" href="/en/2019/01/11/virtual-member-function-declaration-and-definition-in-Cxx/" itemprop="url">
             <span itemprop="name">Declaration and Definition of Virtual Member Functions in C++</span>
           </a>
-        
       </h3>
 
     </header>
   </article>
-
-
 
     </div>
   </div>
@@ -452,6 +275,28 @@
 
           </div>
           
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let activeClass = CONFIG.comments.activeClass;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
 
         </div>
           
@@ -481,55 +326,38 @@
 
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-author-image" itemprop="image"
-      src="/en/images/avatar/avatar.webp"
-      alt="Liam Huang">
+    <img class="site-author-image" itemprop="image" alt="Liam Huang"
+      src="/en/images/avatar/avatar.webp">
   <p class="site-author-name" itemprop="name">Liam Huang</p>
   <div class="site-description" itemprop="description"></div>
 </div>
 <div class="site-state-wrap motion-element">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
-        
           <a href="/en/archives/">
         
           <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
-    
-      
-      
       <div class="site-state-item site-state-categories">
-        
-          
             <a href="/en/categories/">
           
-        
         <span class="site-state-item-count">3</span>
-        <span class="site-state-item-name">categories</span>
-        </a>
+        <span class="site-state-item-name">categories</span></a>
       </div>
-    
-      
-      
       <div class="site-state-item site-state-tags">
-        
-          
             <a href="/en/tags/">
           
-        
         <span class="site-state-item-count">5</span>
-        <span class="site-state-item-name">tags</span>
-        </a>
+        <span class="site-state-item-name">tags</span></a>
       </div>
-    
   </nav>
 </div>
-  <div class="feed-link motion-element">
-    <a href="/en/atom.xml" rel="alternate">
-      <i class="fa fa-rss"></i>RSS
-    </a>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="/en/atom.xml" title="RSS → /atom.xml"><i class="fa fa-fw fa-rss"></i>RSS</a>
+      </span>
   </div>
 
 
@@ -549,6 +377,7 @@
         
 
 <div class="copyright">
+  
   &copy; 2018 – 
   <span itemprop="copyrightYear">2020</span>
   <span class="with-love">
@@ -569,7 +398,7 @@
   <div class="powered-by">Powered by <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.9.0
   </div>
   <span class="post-meta-divider">|</span>
-  <div class="theme-info">Theme – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.4.2
+  <div class="theme-info">Theme – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.7.1
   </div>
 
         
@@ -583,7 +412,6 @@
         <span id="busuanzi_value_site_pv"></span>
       </span>
     </span>
-  
 </div>
 
 
@@ -614,26 +442,20 @@
 
 
 
-
-
-
-
-        
       </div>
     </footer>
   </div>
 
   
-  <script src="/en/lib/anime.min.js?v=3.1.0"></script>
-  <script src="/en/lib/pjax/pjax.min.js?v=0.2.8"></script>
+  <script src="/en/lib/anime.min.js"></script>
+  <script src="/en/lib/pjax/pjax.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/medium-zoom@1/dist/medium-zoom.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js"></script>
-  <script src="/en/lib/velocity/velocity.min.js?v=1.2.1"></script>
-  <script src="/en/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-<script src="/en/js/utils.js?v=7.4.2"></script><script src="/en/js/motion.js?v=7.4.2"></script>
-<script src="/en/js/schemes/pisces.js?v=7.4.2"></script>
-
-<script src="/en/js/next-boot.js?v=7.4.2"></script>
+  <script src="/en/lib/velocity/velocity.min.js"></script>
+  <script src="/en/lib/velocity/velocity.ui.min.js"></script>
+<script src="/en/js/utils.js"></script><script src="/en/js/motion.js"></script>
+<script src="/en/js/schemes/pisces.js"></script>
+<script src="/en/js/next-boot.js"></script>
   <script>
 var pjax = new Pjax({
   selectors: [
@@ -672,7 +494,7 @@ window.addEventListener('pjax:success', () => {
       script.async = false;
     }
     if (element.getAttribute('pjax') !== null) {
-      element.setAttribute('pjax', '');
+      script.setAttribute('pjax', '');
     }
     if (code !== '') {
       script.appendChild(document.createTextNode(code));
@@ -684,6 +506,7 @@ window.addEventListener('pjax:success', () => {
   if (CONFIG.motion.enable) {
     NexT.motion.integrator
       .init()
+      .add(NexT.motion.middleWares.subMenu)
       .add(NexT.motion.middleWares.postList)
       .bootstrap();
   }
@@ -699,12 +522,7 @@ window.addEventListener('pjax:success', () => {
 
 
 
-
-
-
-
-  <script src="/en/js/local-search.js?v=7.4.2"></script>
-
+  <script src="/en/js/local-search.js"></script>
 
 
 
@@ -744,14 +562,21 @@ document.addEventListener('visibilitychange', function () {
 
 
     <div id="pjax">
-
   
 
   
 
   
-
-  
+  <script src="//cdn.jsdelivr.net/npm/quicklink@1/dist/quicklink.umd.js"></script>
+  <script>
+      window.addEventListener('load', () => {
+      quicklink({
+        timeout: 3000,
+        priority: true,
+        ignores: [uri => uri.includes('#'),uri => uri == 'https://liam.page/en/categories/Algorithm-and-Computer-Science/',]
+      });
+      });
+  </script>
 
     </div>
 </body>
