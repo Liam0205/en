@@ -2,23 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://liam.page/en/2022/04/01/fix-missing-Python2-7-on-macOS-Monterey-12-3/</loc>
+    
+    <lastmod>2022-04-01T04:31:13.217Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://liam.page/en/2019/11/05/connect-HDFS-data-into-Hive-external-table-without-redundant-movement/</loc>
     
-    <lastmod>2020-02-04T09:25:18.389Z</lastmod>
+    <lastmod>2020-02-04T09:25:18.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://liam.page/en/2019/01/11/virtual-member-function-declaration-and-definition-in-Cxx/</loc>
     
-    <lastmod>2020-02-04T09:25:08.833Z</lastmod>
+    <lastmod>2020-02-04T09:25:08.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://liam.page/en/2019/01/08/the-Pirate-Dividend-issue-and-Trump-Campaign/</loc>
     
-    <lastmod>2020-02-04T09:24:55.422Z</lastmod>
+    <lastmod>2020-02-04T09:24:55.000Z</lastmod>
     
   </url>
   
