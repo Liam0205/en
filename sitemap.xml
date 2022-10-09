@@ -4,57 +4,168 @@
   <url>
     <loc>https://liam.page/en/2022/04/01/fix-missing-Python2-7-on-macOS-Monterey-12-3/</loc>
     
-    <lastmod>2022-06-20T04:48:09.931Z</lastmod>
+    <lastmod>2022-06-20</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://liam.page/en/2019/01/08/the-Pirate-Dividend-issue-and-Trump-Campaign/</loc>
     
-    <lastmod>2020-03-02T14:20:07.000Z</lastmod>
+    <lastmod>2020-03-02</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://liam.page/en/2019/01/11/virtual-member-function-declaration-and-definition-in-Cxx/</loc>
     
-    <lastmod>2020-03-02T14:20:07.000Z</lastmod>
+    <lastmod>2020-03-02</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://liam.page/en/2019/11/05/connect-HDFS-data-into-Hive-external-table-without-redundant-movement/</loc>
     
-    <lastmod>2020-03-02T14:20:07.000Z</lastmod>
+    <lastmod>2020-03-02</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://liam.page/en/about/index.html</loc>
     
-    <lastmod>2019-01-18T09:11:32.000Z</lastmod>
+    <lastmod>2019-01-18</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://liam.page/en/notes/index.html</loc>
     
-    <lastmod>2019-01-18T09:11:32.000Z</lastmod>
+    <lastmod>2019-01-18</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://liam.page/en/categories/index.html</loc>
     
-    <lastmod>2019-01-12T02:50:51.000Z</lastmod>
+    <lastmod>2019-01-12</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://liam.page/en/tags/index.html</loc>
     
-    <lastmod>2019-01-12T02:50:51.000Z</lastmod>
+    <lastmod>2019-01-12</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+
+  <url>
+    <loc>https://liam.page/en</loc>
+    <lastmod>2022-10-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  
+  <url>
+    <loc>https://liam.page/en/tags/Game-Theory/</loc>
+    <lastmod>2022-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://liam.page/en/tags/C/</loc>
+    <lastmod>2022-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://liam.page/en/tags/Virtual-Member-Function/</loc>
+    <lastmod>2022-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://liam.page/en/tags/HDFS/</loc>
+    <lastmod>2022-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://liam.page/en/tags/Hive/</loc>
+    <lastmod>2022-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://liam.page/en/tags/macOS/</loc>
+    <lastmod>2022-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://liam.page/en/tags/Monterey/</loc>
+    <lastmod>2022-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://liam.page/en/tags/Python/</loc>
+    <lastmod>2022-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+
+  
+  <url>
+    <loc>https://liam.page/en/categories/Mathematics-and-Natural-Sciences/</loc>
+    <lastmod>2022-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://liam.page/en/categories/Algorithm-and-Computer-Science/</loc>
+    <lastmod>2022-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://liam.page/en/categories/Big-Data/</loc>
+    <lastmod>2022-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://liam.page/en/categories/Computer-Skills/</loc>
+    <lastmod>2022-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
   </url>
   
 </urlset>
