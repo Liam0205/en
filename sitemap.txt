@@ -4,8 +4,8 @@ https://liam.page/en/2019/01/11/virtual-member-function-declaration-and-definiti
 https://liam.page/en/2019/11/05/connect-HDFS-data-into-Hive-external-table-without-redundant-movement/
 https://liam.page/en/about/index.html
 https://liam.page/en/notes/index.html
-https://liam.page/en/categories/index.html
 https://liam.page/en/tags/index.html
+https://liam.page/en/categories/index.html
 https://liam.page/en
 https://liam.page/en/tags/Game-Theory/
 https://liam.page/en/tags/C/
