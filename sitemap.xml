@@ -2,24 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://liam.page/en/2019/01/08/the-Pirate-Dividend-issue-and-Trump-Campaign/</loc>
-    
-    <lastmod>2026-01-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://liam.page/en/2023/02/15/fix-battery-usage-graph-on-iOS-14-5-1-unc0ver-8-0-2/</loc>
-    
-    <lastmod>2026-01-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://liam.page/en/2019/01/11/virtual-member-function-declaration-and-definition-in-Cxx/</loc>
     
     <lastmod>2026-01-15</lastmod>
@@ -47,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://liam.page/en/about/index.html</loc>
+    <loc>https://liam.page/en/2019/01/08/the-Pirate-Dividend-issue-and-Trump-Campaign/</loc>
     
     <lastmod>2026-01-15</lastmod>
     
@@ -56,7 +38,16 @@
   </url>
   
   <url>
-    <loc>https://liam.page/en/categories/index.html</loc>
+    <loc>https://liam.page/en/2023/02/15/fix-battery-usage-graph-on-iOS-14-5-1-unc0ver-8-0-2/</loc>
+    
+    <lastmod>2026-01-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://liam.page/en/about/index.html</loc>
     
     <lastmod>2026-01-15</lastmod>
     
@@ -82,6 +73,15 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>https://liam.page/en/categories/index.html</loc>
+    
+    <lastmod>2026-01-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
   <url>
     <loc>https://liam.page/en</loc>
@@ -90,20 +90,6 @@
     <priority>1.0</priority>
   </url>
 
-  
-  <url>
-    <loc>https://liam.page/en/tags/Game-Theory/</loc>
-    <lastmod>2026-04-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://liam.page/en/tags/Fixing/</loc>
-    <lastmod>2026-04-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
   
   <url>
     <loc>https://liam.page/en/tags/C/</loc>
@@ -154,21 +140,21 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://liam.page/en/tags/Game-Theory/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://liam.page/en/tags/Fixing/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
-  
-  <url>
-    <loc>https://liam.page/en/categories/Mathematics-and-Natural-Sciences/</loc>
-    <lastmod>2026-04-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://liam.page/en/categories/Jailbreak-and-Reverse-Engineering/</loc>
-    <lastmod>2026-04-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
   
   <url>
     <loc>https://liam.page/en/categories/Algorithm-and-Computer-Science/</loc>
@@ -186,6 +172,20 @@
   
   <url>
     <loc>https://liam.page/en/categories/Computer-Skills/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://liam.page/en/categories/Mathematics-and-Natural-Sciences/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://liam.page/en/categories/Jailbreak-and-Reverse-Engineering/</loc>
     <lastmod>2026-04-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
