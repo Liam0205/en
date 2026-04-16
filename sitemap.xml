@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://liam.page/en/2019/11/05/connect-HDFS-data-into-Hive-external-table-without-redundant-movement/</loc>
+    <loc>https://liam.page/en/2019/01/08/the-Pirate-Dividend-issue-and-Trump-Campaign/</loc>
     
     <lastmod>2026-01-15</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://liam.page/en/2019/01/08/the-Pirate-Dividend-issue-and-Trump-Campaign/</loc>
+    <loc>https://liam.page/en/2019/11/05/connect-HDFS-data-into-Hive-external-table-without-redundant-movement/</loc>
     
     <lastmod>2026-01-15</lastmod>
     
@@ -56,6 +56,15 @@
   </url>
   
   <url>
+    <loc>https://liam.page/en/categories/index.html</loc>
+    
+    <lastmod>2026-01-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://liam.page/en/notes/index.html</loc>
     
     <lastmod>2026-01-15</lastmod>
@@ -66,15 +75,6 @@
   
   <url>
     <loc>https://liam.page/en/tags/index.html</loc>
-    
-    <lastmod>2026-01-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://liam.page/en/categories/index.html</loc>
     
     <lastmod>2026-01-15</lastmod>
     
@@ -106,14 +106,7 @@
   </url>
   
   <url>
-    <loc>https://liam.page/en/tags/HDFS/</loc>
-    <lastmod>2026-04-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://liam.page/en/tags/Hive/</loc>
+    <loc>https://liam.page/en/tags/Game-Theory/</loc>
     <lastmod>2026-04-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -141,7 +134,14 @@
   </url>
   
   <url>
-    <loc>https://liam.page/en/tags/Game-Theory/</loc>
+    <loc>https://liam.page/en/tags/HDFS/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://liam.page/en/tags/Hive/</loc>
     <lastmod>2026-04-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -164,7 +164,7 @@
   </url>
   
   <url>
-    <loc>https://liam.page/en/categories/Big-Data/</loc>
+    <loc>https://liam.page/en/categories/Mathematics-and-Natural-Sciences/</loc>
     <lastmod>2026-04-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -178,7 +178,7 @@
   </url>
   
   <url>
-    <loc>https://liam.page/en/categories/Mathematics-and-Natural-Sciences/</loc>
+    <loc>https://liam.page/en/categories/Big-Data/</loc>
     <lastmod>2026-04-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
